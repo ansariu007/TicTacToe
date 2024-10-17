@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Laila:wght@300;400;500;600;700&family=Macondo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(4, 130, 139);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    font-family:"Macondo", cursive;
+    background-color: ivory;
+    color: black;
+    box-shadow: 3px 3px 2px 3px darkslategrey;
+}
+
+#reset-btn{
+    font-size: 1rem;
+    font-family: "Laila", serif;
+    padding: 0.8rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    font-family: "Laila", serif;
+}
+
+h1{
+    font-family: "Laila", serif;
+}
+
+#msg{
+    color: ivory;
+    font-size: 5vmin;
+}
+
+#new-btn{
+    font-size: 1rem;
+    font-family: "Laila", serif;
+    padding: 0.8rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.7rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width = 1000px){
+    .msg-container{
+        height: 160vmin;
+    }
+}
+
